@@ -8,7 +8,7 @@ You can find the REST controller in the
 class.
 
 For the communication between the REST controller and the background process
-the java 8
+the Java 8
 [CompletableFuture](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CompletableFuture.html)
 and an
 [ExecutorService](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ExecutorService.html) is used.
