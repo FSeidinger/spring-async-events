@@ -1,4 +1,4 @@
-package de.seidinger.frank.examples.spring.events.async.infrastructure;
+package de.seidinger.frank.examples.spring;
 
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;

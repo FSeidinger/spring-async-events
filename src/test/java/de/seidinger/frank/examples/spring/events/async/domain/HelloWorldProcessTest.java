@@ -15,7 +15,7 @@ class HelloWorldProcessTest {
     private HelloWorldProcess process;
 
     @Test
-    @DisplayName("When the StartProcess command is given, a process is started")
+    @DisplayName("When the StartProcess command is given, the process is started")
     void m1() throws Exception {
         final StartProcess command = new StartProcess(
                 "1"
@@ -37,7 +37,7 @@ class HelloWorldProcessTest {
     }
 
     @Test
-    @DisplayName("When a process is started, the FinishProcess command is given")
+    @DisplayName("When the process is started, the FinishProcess command is given")
     void m2() {
         final ProcessStarted event = new ProcessStarted(
                 "2"
@@ -61,7 +61,7 @@ class HelloWorldProcessTest {
     }
 
     @Test
-    @DisplayName("When the StartProcess command is given, a process is started")
+    @DisplayName("When the FinishProcess command is given, the process is finished")
     void m3() throws Exception {
         final FinishProcess command = new FinishProcess(
                 "1",

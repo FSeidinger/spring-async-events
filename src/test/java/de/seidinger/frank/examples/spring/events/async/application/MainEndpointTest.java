@@ -1,6 +1,6 @@
 package de.seidinger.frank.examples.spring.events.async.application;
 
-import de.seidinger.frank.examples.spring.events.async.infrastructure.SpringWebTest;
+import de.seidinger.frank.examples.spring.SpringWebTest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
